@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+body {
+    height: 95vh;
+    background: #ebac36;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 0.5em 0 0.5em 0;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    padding: 1em 10px 1em 10px;
+    flex: 1 1 100px;
+}
+
+main {
+    padding: 1em 0 1em 0;
+    flex: 5 5 150px;
+}
+
+.right {
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+h1, h2, h3, h4, h5, h6, div, li, ul, a,p ,span {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, ul {
+    cursor: default;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p, span {
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wut {
+    text-decoration: underline;
+}
+
+.social {
+    background: #f0a110;
+    padding: 20px;
+}
+
+.fart {
+    padding: 35px;
+}
+
+.more-fart {
+    padding-top: 15px;
+}
+
+.huh {
+    border-bottom: 5px solid white;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #fff;
+
+      
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav li {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+/* Tooltip */
+
+.tooltip {
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link {
+    font-size: 27px;
+}
+  
+.tooltip .tooltiptext {
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+    visibility: hidden;
+    width: 175px;
+    background-color: #fbc96e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    text-align: center;
+}
+
+/* Mons */
+/*.text p {
+    color: #000;
+}
+
+.text h4 {
+    color: #000;
+}
+
+.title p {
+    color: #fff;
+} */
+
+.none {
+    color: #ffffff;
+}
+
+.mantine {
+    color: rgb(34, 82, 241);
+}
+
+.chandelure {
+    color: rgb(207, 63, 27);
+}
+  
+/* Content */
+.what {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    font-weight: 400;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    font-size: 36px;
+}
+
+/* .what::before, .what::after {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    display: block;
+} */
+
+.wat {
+    position: fixed;
+    padding: 0 35px 0 35px;
+    top: 315px;
+}
+
+.ca {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.sticky {
+    position: fixed;
+    font-size: 30px;
+    padding: 20px;
+    top: 365px;
+}
+
+@media all and (max-width: 550px) {
+    .main {
+        flex-direction: column;
+    }
+    main{
+        padding: 5em 0 5em;
+    }
+}
